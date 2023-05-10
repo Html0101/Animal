@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-image: url(Background.jpeg);
+    backdrop-filter: 2px;
+}
+.theBackground{
+    background-color: rgba(240, 248, 255, 0.712);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+img{
+    max-width: 50%;
+    max-height: 50%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <script src="main.js"></script>
+        <link rel="shortcut icon" href="Favicon.jpeg" type="image/x-icon">
+        <title>Animal Sound App</title>
+    </head>
+    <body>
+        <div class="theBackground">
+            <h2>Animal Sound</h2>
+            <p>Press start to see what is heard</p>
+        </div>
+        <div class="theBackground">
+            <button class="btn btn-success" onclick="start()">Start</button>
+        </div>
+        <center class="theBackground">
+            <h4 id="numberOfAudioAnimal"></h4>
+            <h3 id="NameOfAudio"></h3>
+            <br>
+            <img id="imgOfAnimals" src="Default.png" alt="Default">
+        </center>
+        <div id="footer" class="theBackground">
+            <p>Made by Basil</p>
+        </div>
+    </body>
+</html>
